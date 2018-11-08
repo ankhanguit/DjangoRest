@@ -1,0 +1,25 @@
+#App requirement version 0.0.0
+0==0.0.0
+
+#Django package
+Django==2.1.3
+
+#PostgreSQL connector
+psycopg2==2.7.5
+
+#Django Rest Framework and dependency packages
+djangorestframework==3.9.0
+markdown==3.0.1
+django-filter==2.0.0
+coreapi==2.3.3
+django-guardian==1.4.9
+
+#[Rest Framework Authentication] Support login with social network account
+django-allauth==0.38.0
+#[Rest Framework Authentication] Support check authentication with rest framework.
+django-rest-auth==0.9.3
+#[Rest Framework Authentication] Support authenticate by token on request header.
+djangorestframework-jwt==1.11.0
+
+#[CORS | Cross-Origin Resource Sharing] support make cross-domain requests
+django-cors-headers==2.4.0
